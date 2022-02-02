@@ -40,6 +40,22 @@ struct ContentView: View {
                     }
                 }
             }
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button {
+                        Task {
+                            do {
+                                try await loadSigns()
+                            } catch {
+                                // TODO: Handle errors in UI
+                                assertionFailure(error.localizedDescription)
+                            }
+                        }
+                    } label: {
+                        Label("Refresh", systemImage: "arrow.clockwise")
+                    }
+                }
+            }
             #if !os(watchOS)
             .listStyle(.sidebar)
             #endif

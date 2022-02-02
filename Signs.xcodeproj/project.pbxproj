@@ -25,7 +25,7 @@
 		034DF7D127AA2CE600CCAC96 /* SignsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DF7CF27AA2CE600CCAC96 /* SignsObserver.swift */; };
 		034DF7D327AA2CFD00CCAC96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DF7D227AA2CFD00CCAC96 /* Model.swift */; };
 		034DF7D427AA2CFD00CCAC96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DF7D227AA2CFD00CCAC96 /* Model.swift */; };
-		034DF7DB27AA2E2600CCAC96 /* WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 034DF7DA27AA2E2600CCAC96 /* WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		034DF7DB27AA2E2600CCAC96 /* Signs.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 034DF7DA27AA2E2600CCAC96 /* Signs.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		034DF7E027AA2E2800CCAC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034DF7DF27AA2E2800CCAC96 /* Assets.xcassets */; };
 		034DF7E627AA2E2800CCAC96 /* WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 034DF7E527AA2E2800CCAC96 /* WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		034DF7F127AA2E2900CCAC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034DF7F027AA2E2900CCAC96 /* Assets.xcassets */; };
@@ -88,7 +88,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				034DF7DB27AA2E2600CCAC96 /* WatchKit App.app in Embed Watch Content */,
+				034DF7DB27AA2E2600CCAC96 /* Signs.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,8 +113,8 @@
 		034DF7CC27AA2CC500CCAC96 /* SignsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsError.swift; sourceTree = "<group>"; };
 		034DF7CF27AA2CE600CCAC96 /* SignsObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsObserver.swift; sourceTree = "<group>"; };
 		034DF7D227AA2CFD00CCAC96 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		034DF7D727AA2E2600CCAC96 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		034DF7DA27AA2E2600CCAC96 /* WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034DF7D727AA2E2600CCAC96 /* Signs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034DF7DA27AA2E2600CCAC96 /* Signs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034DF7DF27AA2E2800CCAC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034DF7E527AA2E2800CCAC96 /* WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034DF7F027AA2E2900CCAC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -196,8 +196,8 @@
 				034DF79927A9F49400CCAC96 /* Signs.app */,
 				034DF7A027A9F49400CCAC96 /* Tests iOS.xctest */,
 				034DF7AC27A9F49400CCAC96 /* Tests macOS.xctest */,
-				034DF7D727AA2E2600CCAC96 /* Watch.app */,
-				034DF7DA27AA2E2600CCAC96 /* WatchKit App.app */,
+				034DF7D727AA2E2600CCAC96 /* Signs.app */,
+				034DF7DA27AA2E2600CCAC96 /* Signs.app */,
 				034DF7E527AA2E2800CCAC96 /* WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -350,7 +350,7 @@
 			);
 			name = Watch;
 			productName = SignsWatch;
-			productReference = 034DF7D727AA2E2600CCAC96 /* Watch.app */;
+			productReference = 034DF7D727AA2E2600CCAC96 /* Signs.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		034DF7D927AA2E2600CCAC96 /* WatchKit App */ = {
@@ -367,7 +367,7 @@
 			);
 			name = "WatchKit App";
 			productName = "SignsWatch WatchKit App";
-			productReference = 034DF7DA27AA2E2600CCAC96 /* WatchKit App.app */;
+			productReference = 034DF7DA27AA2E2600CCAC96 /* Signs.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		034DF7E427AA2E2800CCAC96 /* WatchKit Extension */ = {
@@ -702,7 +702,7 @@
 		034DF7BD27A9F49400CCAC96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iOS-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -733,7 +733,7 @@
 		034DF7BE27A9F49400CCAC96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iOS-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -765,7 +765,7 @@
 		034DF7C027A9F49400CCAC96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "macOS-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -793,7 +793,7 @@
 		034DF7C127A9F49400CCAC96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "macOS-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -908,7 +908,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SignsWatch WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SignsWatch WatchKit Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = Signs;
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -940,7 +940,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SignsWatch WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SignsWatch WatchKit Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = Signs;
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -966,18 +966,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "watchOS-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6454UVH5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = SignsWatch_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "SignsWatch WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.Signs.watch.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Signs;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -991,18 +990,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "watchOS-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6454UVH5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = SignsWatch_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "SignsWatch WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.Signs.watch.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Signs;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1021,7 +1019,7 @@
 				DEVELOPMENT_TEAM = LU6454UVH5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.Signs.watch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Signs;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 			};
@@ -1035,7 +1033,7 @@
 				DEVELOPMENT_TEAM = LU6454UVH5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.Signs.watch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Signs;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
