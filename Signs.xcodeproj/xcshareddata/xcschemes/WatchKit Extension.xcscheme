@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "034DF7D927AA2E2600CCAC96"
-               BuildableName = "WatchKit App.app"
+               BuildableName = "Signs.app"
                BlueprintName = "WatchKit App"
                ReferencedContainer = "container:Signs.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "034DF7D627AA2E2600CCAC96"
-               BuildableName = "Watch.app"
+               BuildableName = "Signs.app"
                BlueprintName = "Watch"
                ReferencedContainer = "container:Signs.xcodeproj">
             </BuildableReference>
@@ -71,7 +71,7 @@
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/SignsWatch WatchKit Extension">
+         RemotePath = "/Signs">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "034DF7E427AA2E2800CCAC96"
@@ -90,7 +90,7 @@
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/SignsWatch WatchKit Extension">
+         RemotePath = "/Signs">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "034DF7E427AA2E2800CCAC96"
